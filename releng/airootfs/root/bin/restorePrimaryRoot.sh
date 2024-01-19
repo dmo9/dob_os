@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# LOAD THE CONFIGURATION FILE 
+source /home/dob/dob_os/.conf
+
 # identify the root partitions of each disk (primary and backup) 
 primaryDiskRootPart=/dev/disk/by-id/nvme-CT500P3PSSD8_2244E680491F-part2
 backupDiskRootPart=/dev/disk/by-id/ata-WDC_WD5000LPCX-24C6HT0_WD-WX31A2510N4Y-part1
