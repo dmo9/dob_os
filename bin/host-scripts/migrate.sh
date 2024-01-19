@@ -7,16 +7,5 @@
 # for more details 
 
 # create the lists
-sudo pacman -Qqen > ~/.config/arch/pkglist.txt
-sudo pacman -Qqem > ~/.config/arch/pkglist_aur.txt
-
-# push everything to git 
-cd ~/.config
-git add --all
-git commit -m "yeet"
-git push 
-
-
-
-
-
+sudo pacman -Qqen > ~/dob_os/bin/host-scripts/pkglist.txt
+sudo pacman -Qqem > ~/dob_os/bin/host-scripts/pkglist_aur.txt

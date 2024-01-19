@@ -1,8 +1,8 @@
 #!/bin/bash
 # This script creates an iso using archiso & our iso profile folder
 
-isoOutputDir=/home/dob/backup/dob_os
-profileDir=/home/dob/backup/dob_os/releng
+isoOutputDir=/home/dob/dob_os
+profileDir=/home/dob/dob_os/releng
 liveIsoUsb=/dev/disk/by-id/usb-VendorCo_ProductCode_3910691084156330299-0:0-part1
 
 
@@ -24,7 +24,7 @@ if [ "$EUID" != 0 ]
 
 
         #generate the iso using archiso
-        mkarchiso -vr -w /tmp/tmp -o $isoOutputDir $profileDir
+        mkarchiso -vrw /tmp/tmp -o $isoOutputDir $profileDir
 
         # add the iso to the flash drive
         isoName=$(ls $isoOutputDir | grep -E '\.iso$')
