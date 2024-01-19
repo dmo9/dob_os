@@ -1,5 +1,6 @@
 alsa-utils
 amd-ucode
+arch-install-scripts
 b43-fwcutter
 base
 bcachefs-tools
@@ -38,7 +39,6 @@ hyperv
 intel-ucode
 irssi
 iw
-iwd
 jfsutils
 kitty-terminfo
 less
@@ -67,6 +67,7 @@ nano
 nbd
 ndisc6
 nfs-utils
+networkmanager
 nilfs-utils
 nmap
 ntfs-3g

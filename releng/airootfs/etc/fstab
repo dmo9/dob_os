@@ -1,0 +1,9 @@
+# /dev/nvme0n1p2
+UUID=1b428345-ea84-43d6-aa1a-75978baecb14	/         	ext4      	rw,relatime	0 1
+
+# /dev/nvme0n1p1
+UUID=B317-EEA4      	/boot     	vfat      	rw,relatime,fmask=0022,dmask=0022,codepage=437,iocharset=ascii,shortname=mixed,utf8,errors=remount-ro	0 2
+
+# /dev/sda1
+UUID=6156932a-c889-41a7-9e13-097739bcaae0	/media/backupDisk	ext4      	rw,relatime	0 2
+
