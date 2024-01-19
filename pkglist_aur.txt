@@ -1,0 +1,11 @@
+brother-mfc-l2717dw
+clion
+clion-cmake
+clion-gdb
+clion-jre
+colorpicker
+drawio-desktop
+gnome-shell-extension-forge
+hplip-plugin
+programmer-calculator
+yay
